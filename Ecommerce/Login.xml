@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test  name="Valid_Valid">
+          <parameter name = "username" value = "mngr177521"/>
+          <parameter name = "password" value = "mUbEpav"/>
+   <classes>      
+     <class name = "project.framework.Login_Verification"></class>
+   </classes>    
+  </test> 
+  
+   <test  name="Invalid_Valid">
+          <parameter name = "username" value = "moussa"/>
+          <parameter name = "password" value = "mUbEpav"/>
+   <classes>      
+     <class name = "project.framework.Login_Verification"></class>
+   </classes>    
+  </test> 
+  
+     <test  name="Valid_Invalid">
+          <parameter name = "username" value = "mngr177521"/>
+          <parameter name = "password" value = "mauvais"/>
+   <classes>      
+     <class name = "project.framework.Login_Verification"></class>
+   </classes>    
+  </test>
+  
+     <test  name="Invalid_Invalid">
+          <parameter name = "username" value = "dramane"/>
+          <parameter name = "password" value = "pasbon"/>
+   <classes>      
+     <class name = "project.framework.Login_Verification"></class>
+   </classes>    
+  </test>
+</suite> <!-- Suite -->
