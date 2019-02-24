@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <parameter name="password" value="mUbEpaav"/>
+  <parameter name="username" value="moussa"/>
+  <test name="Invalid_Valid(failed)(failed)">
+    <parameter name="password" value="mUbEpav"/>
+    <parameter name="username" value="moussa"/>
+    <classes>
+      <class name="project.framework.Login_Verification">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LoginInfo" invocation-numbers="0"/>
+          <include name="ClosingBrowser"/>
+          <include name="ClosingBrowser"/>
+          <include name="ClosingBrowser"/>
+        </methods>
+      </class> <!-- project.framework.Login_Verification -->
+    </classes>
+  </test> <!-- Invalid_Valid(failed)(failed) -->
+  <test name="Valid_Invalid(failed)(failed)">
+    <parameter name="password" value="mUbEpaav"/>
+    <parameter name="username" value="mngr177521"/>
+    <classes>
+      <class name="project.framework.Login_Verification">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LoginInfo" invocation-numbers="0"/>
+          <include name="ClosingBrowser"/>
+          <include name="ClosingBrowser"/>
+          <include name="ClosingBrowser"/>
+        </methods>
+      </class> <!-- project.framework.Login_Verification -->
+    </classes>
+  </test> <!-- Valid_Invalid(failed)(failed) -->
+  <test name="Invalid_Invalid(failed)(failed)">
+    <parameter name="password" value="mUbEpaav"/>
+    <parameter name="username" value="moussa"/>
+    <classes>
+      <class name="project.framework.Login_Verification">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LoginInfo" invocation-numbers="0"/>
+          <include name="ClosingBrowser"/>
+          <include name="ClosingBrowser"/>
+          <include name="ClosingBrowser"/>
+        </methods>
+      </class> <!-- project.framework.Login_Verification -->
+    </classes>
+  </test> <!-- Invalid_Invalid(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
